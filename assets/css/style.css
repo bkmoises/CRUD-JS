@@ -1,0 +1,11 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: tahoma, sans-serif;
+  background-color: #eee;
+}
+
+header {
+  background-color: #0000FE;
+  height: 80px;
+}
