@@ -37,14 +37,33 @@ body {
   display: block;
   padding: 10px 12px;
   margin: 50px 0 20px 50px;
+  cursor: pointer;
 }
 
 .main-table tr {
+  display: grid;
+  grid-template-columns: repeat(5, 233px);
+  grid-template-rows: 52px;
+  gap: 5px;
+  align-items: center;
+  text-align: left;
 }
 
 .main-table th {
   font-weight: bold;
   background-color: #02C5FE;
+  padding: 15px 0 15px 17px;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+.main-table th:first-child {
+  margin-left: 50px;
+}
+
+.main-table th:last-child {
+  text-align: center;
+  padding-left: 0;
 }
 
 
