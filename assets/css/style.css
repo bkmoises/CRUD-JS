@@ -68,12 +68,15 @@ body {
   text-align: left;
 }
 
-.main-table th {
+.main-table thead th {
   user-select: none;
   font-weight: bold;
+  background-color: #02C5FE;
+}
+
+.main-table th {
   box-sizing: border-box;
   padding: 15px 0 15px 17px;
-  background-color: #02C5FE;
 }
 
 .main-table th:first-child {
@@ -84,6 +87,15 @@ body {
   text-align: center;
   padding-left: 0;
 }
+
+.main-table tbody th {
+  font-size: 15px;
+}
+
+.main-table tbody:hover th {
+  background: #28D7FF35;
+}
+
 
 .footer {
   text-align: center;
