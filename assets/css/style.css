@@ -74,27 +74,75 @@ body {
   background-color: #02C5FE;
 }
 
-.main-table th {
+.main-table th, .main-table td {
   box-sizing: border-box;
   padding: 15px 0 15px 17px;
 }
 
-.main-table th:first-child {
+.main-table th:first-child, .main-table td:first-child {
   margin-left: 50px;
 }
 
-.main-table th:last-child {
+.main-table th:last-child, .main-table td:last-child {
   text-align: center;
   padding-left: 0;
 }
 
-.main-table tbody th {
+.main-table tbody td {
   font-size: 15px;
 }
 
-.main-table tbody:hover th {
+.main-table tbody:hover td {
   background: #28D7FF35;
 }
+
+.menu-btn {
+  padding: 9px 11px;
+  font-size: 18px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  transition: .7s;
+  position: relative;
+  z-index: 1;
+}
+
+.edit-btn {
+  background: #01dca0;
+}
+
+.edit-btn:before {
+  background: #01ac7d;
+}
+
+.delete-btn {
+  background: #FE3B02;
+}
+
+.delete-btn:before {
+  background: #CC2F01;
+}
+
+.menu-btn:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  transition: width 0.3s ease-in-out;
+  z-index: -1;
+}
+
+.menu-btn:hover:before {
+  width: 100%;
+}
+
+
+
+
+
+
 
 
 .footer {
