@@ -40,6 +40,7 @@ body {
   cursor: pointer;
   transition: .7s;
   position: relative;
+  z-index: 1;
 }
 
 .signup-btn:before {
@@ -49,8 +50,9 @@ body {
   left: 0;
   width: 0;
   height: 100%;
-  background: #CC950150;
+  background: #CC9501;
   transition: width 0.3s ease-in-out;
+  z-index: -1;
 }
 
 .signup-btn:hover:before {
