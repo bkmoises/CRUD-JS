@@ -61,7 +61,7 @@ body {
 
 .main-table tr {
   display: grid;
-  grid-template-columns: repeat(5, 233px);
+  grid-template-columns: repeat(5, 17.3vw);
   grid-template-rows: 52px;
   gap: 5px;
   align-items: center;
