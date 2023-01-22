@@ -64,6 +64,7 @@ body {
   grid-template-columns: repeat(5, 17.3vw);
   grid-template-rows: repeat(5, auto);
   gap: 1.5px;
+  column-gap: 2px;
   align-items: center;
   text-align: left;
   justify-content: center;
