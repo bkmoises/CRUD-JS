@@ -90,6 +90,8 @@ body {
 
 .main-content-body td {
   font-size: 15px;
+  overflow: auto;
+  text-overflow: ellipsis;
 }
 
 .main-content-body td:last-child {
